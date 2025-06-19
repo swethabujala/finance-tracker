@@ -1,0 +1,23 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.income {
+  border-right: 5px solid #28a745;
+}
+
+.expense {
+  border-right: 5px solid #dc3545;
+}
+
+#transaction-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+canvas#pieChart {
+  max-width: 250px;
+  max-height: 250px;
+}
